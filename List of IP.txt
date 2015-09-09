@@ -1,0 +1,22 @@
+DMC1:  54.164.179.208,  windows: 54.88.157.86  , dmc1 (wizard12)
+DMC2: 54.209.219.39 ,    windows: 54.88.44.165  , dmc2(wizard13)
+DMC3: 54.165.24.49,       windows: 54.152.234.154, dmc3(wizard22)
+DMC4:54-173-104-223
+DMC5:52.21.7.157(Wizrad31), DMC5 Windows:52.21.177.62
+
+
+dmc3 IP 54.165.24.49
+wizard8.ppkb
+
+DMC4: ubuntu@ec2-54-173-104-223.compute-1.amazonaws.com
+
+Database IPs:
+
+DMC3: 54.210.39.35
+Staging: 54.225.112.136
+
+pgadmin password:Th1F2n3lC45ntd6wn$GC
+
+smarterasp.net 
+userid : M17415 
+pssword :Mjob3xr5$

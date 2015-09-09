@@ -1,0 +1,53 @@
+http://1drv.ms/1U9NfvV
+
+GIT clone
+git clone https://github.com/m17415/globalclassroom4_clean -->clones globalclassroom4_clean in the current directory
+========================================================
+Delete a file in GIT
+git rm --readme.txt
+
+Delete a folder in GIT
+git rm -r --folder/
+then perform git commit -am "deleted"
+
+==============================================
+Adding files in GIT
+
+git add . -->adds all the folders and files in git repo
+
+git add "readme.txt" --> adds a single file in git
+
+git add "folder/" --> adds the folder
+
+=======================================================
+GIT branch
+
+git checkout -b "b1" --> creates a new branch and switches to b1 from the current branch
+
+git branch -->displays the current branch
+
+git branch -a --->displays all the branches
+
+git branch -d experiment --> deletes the branch
+
+================================================
+GIT remote and GIT push
+
+git remote add origin https://github.com/../,, -->added a new remote called origin
+
+git remote  rm <remote name>
+git push -->pushes to the remote origin or the remote created in the currnet branch by default
+
+git push origin master --> pushes to the origin from master
+
+
+===================================
+git PULL
+
+git pull -->pulls the changes from the remote repo and merges with the local
+
+git pull origin master: local  branch(b1) -->pulls changes from master in the remote to b1
+
+git pull --rebase origin master -->pull changes and rebase instead of merges
+
+=================================

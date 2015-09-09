@@ -1,0 +1,218 @@
+cd /var/www
+
+
+ls
+
+ls -lah
+
+diff -r -q globalclassroom4 globalclassroom4_back_29Aug2015/
+
+ls
+
+rm -rf globalclassroom4
+sudo 
+rm -rf globalclassroom4
+
+ls
+
+cd globalclassroom4_back_29Aug2015/
+
+ls -lah
+
+cd ..
+
+
+ls
+
+cd globalclassroom4_clean
+
+git checkout -
+ls -lah
+
+git checkout --
+git status
+
+git log
+git reset --hard e6ac44519870f0e3d5f819e9984950582a4a4bec
+
+git status
+
+ls
+
+cd nonoverwrites/
+
+ls
+
+cd web/
+
+ls
+
+cd images/
+
+ls
+
+cd ../../
+
+cd ..
+
+ls
+
+
+cd ..
+
+gc4update
+
+ls -lah
+
+sudo chown -R ubuntu:ubuntu ./*
+
+ls -lah
+
+cd archive/
+
+ls
+
+cd ..
+
+ls
+
+mv globalclassroom4_clean_back_27Aug2015/ 
+cd archive/
+
+ls
+
+cd ..
+
+
+ls
+
+mv globalclassroom4_back_27Aug2015/ archive/
+
+ls
+
+rm -rf globalclassroom4_back
+
+ls
+
+diff -r -q globalclassroom4_clean globalclassroom4_clean_back
+
+cd globalclassroom4_back_29Aug2015/
+
+ls
+
+exit
+
+cd /var/www
+users
+
+ls
+
+sudo rm -rf apps/ config/ lib/ nonoverwrites/ overwrites/ portal/ stratus/ temp_nonoverwrites/
+
+ls
+
+mv globalclassroom4-staging-2030.7z archive/
+
+rm globalclassroom4.zip 
+
+ls
+
+rm -rf globalclassroom4_mohan/
+
+ls -lah
+
+rm -rf globalclassroom4_clean_back29Aug2015/
+
+ls
+
+sudo chmod -R o-w globalclassroom4_back_29Aug2015/
+
+ls -lah
+
+ls
+
+mv globalclassroom4_clean globalclassroom4_clean_old
+
+git clone git@github.com:GlobalClasroom/globalclassroom4_clean.
+git 
+cd 
+
+cd .ssh
+ls
+cat id_rsa.pub 
+
+cd /var/www
+git clone git@github.com:GlobalClasroom/globalclassroom4_clean.git
+
+ls
+
+gc4update
+
+ls
+
+diff -r -q globalclassroom4 globalclassroom4_back_29Aug2015/
+
+cd globalclassroom4_back_29Aug2015/
+
+cp apps/frontend/modules/course/actions/actions.class.php ../globalclassroom4_clean/apps/frontend/modules/course/actions/actions.class.php
+
+cp apps/frontend/modules/course/templates/certificationsSuccess.php ../globalclassroom4_clean/apps/frontend/modules/course/templates/certificationsSuccess.php
+
+cp apps/frontend/modules/course/templates/subscriptionsSuccess.php ../globalclassroom4_clean/apps/frontend/modules/course/templates/subscriptionsSuccess.php
+
+cp apps/frontend/modules/course/templates/viewSuccess.php ../globalclassroom4_clean/apps/frontend/modules/course/templates/viewSuccess.php
+
+diff config/databases.yml ../globalclassroom4_clean/config/databases.yml 
+
+diff lib/model/gcr_model/gcr.class.php ../globalclassroom4_clean/lib/model/gcr_model/gcr.class.php
+
+cp lib/model/gcr_model/gcr_symfony_theme_classes/GcrUserSymfonyCourseViewHeaderType.class.php ../globalclassroom4_clean/lib/model/gcr_model/gcr_symfony_theme_classes/GcrUserSymfonyCourseViewHeaderType.class.php
+
+cp lib/model/gcr_model/gcr_symfony_theme_classes/GcrUserSymfonyHeaderType.class.php ../globalclassroom4_clean/lib/model/gcr_model/gcr_symfony_theme_classes/GcrUserSymfonyHeaderType.class.php
+
+cp web/css/stratus.css ../globalclassroom4_clean/web/css/stratus.css 
+
+cp web/images/checkmark.png ../globalclassroom4_clean/web/images/
+
+cp web/portal/theme/globalclassroom/static/images/checkmark.png ../globalclassroom4_clean/overwrites/portal/theme/globalclassroom/static/images/
+
+cd ..
+
+diff -r -q globalclassroom4 globalclassroom4_back_29Aug2015/
+
+cd globalclassroom4_clean
+
+git status
+
+git add -A .
+
+git commit -m "8/29 Updates"
+
+git config --global user.name "GlobalClassroom"
+
+git config --global user.email "sysadmin@globalclassroom.us"
+
+git commit --amend --reset-author
+y
+
+git push
+
+git branch -a
+
+cd ..
+gc4update
+
+diff -r -q globalclassroom4 globalclassroom4_back_29Aug2015/
+
+cd globalclassroom4_back_29Aug2015/overwrites/portal/theme/globalclassroom/static/images/
+
+ls
+
+cd 
+
+cd /var/www/
+
+ls
+
+exit
+
